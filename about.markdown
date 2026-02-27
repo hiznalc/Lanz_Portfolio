@@ -6,17 +6,32 @@ permalink: /about/
 
 # About Lanz Miguel M. Cabrera
 
-Welcome to my portfolio! I am a passionate professional dedicated to creating innovative solutions and delivering high-quality work.
+Welcome to my portfolio! I am an undergraduate Information Technology student passionate about building modern web applications and solving real-world problems through technology.
 
-## My Background
+## Education
 
-I specialize in building modern web applications and solving complex problems through technology.
+**Bachelor of Science in Information Technology**  
+Cavite State University - CCAT Rosario Campus
 
-## Skills
+## Technical Skills
+
+### Programming Languages
+
+- **HTML** - Structuring web content
+- **CSS** - Styling and layouts
+- **JavaScript** - Interactive functionality
+- **PHP** - Server-side development
+
+### Other Skills
 
 - Web Development
+- Database Management
 - Problem Solving
 - Team Collaboration
+
+## What I Do
+
+I focus on creating clean, efficient, and user-friendly web applications. My goal is to leverage technology to improve processes and make a positive impact.
 
 ## Contact
 
