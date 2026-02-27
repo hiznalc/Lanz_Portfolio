@@ -1,0 +1,93 @@
+---
+---
+// Custom styles for Lanz Portfolio
+
+// Color Variables
+$primary-color: #2563eb;
+$secondary-color: #1e40af;
+$text-color: #1f2937;
+$bg-color: #ffffff;
+$light-gray: #f3f4f6;
+
+// Global Styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.6;
+  color: $text-color;
+}
+
+// Header Navigation
+.site-header {
+  background: linear-gradient(135deg, $primary-color, $secondary-color);
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.site-title {
+  color: white !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.site-nav .page-link {
+  color: white !important;
+}
+
+.site-nav .page-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+// Headings
+h1 {
+  color: $primary-color;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: $secondary-color;
+  border-bottom: 2px solid $light-gray;
+  padding-bottom: 0.5rem;
+}
+
+// Links
+a {
+  color: $primary-color;
+}
+
+a:hover {
+  color: $secondary-color;
+}
+
+// Content Sections
+.post, .page {
+  background: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+// Footer
+.site-footer {
+  background: $text-color;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.site-footer a {
+  color: white;
+}
+
+// Responsive
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .site-header {
+    padding: 0.5rem 0;
+  }
+}
