@@ -4,15 +4,25 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Lanz Miguel M. Cabrera
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Welcome to my portfolio! I am a passionate professional dedicated to creating innovative solutions and delivering high-quality work.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## My Background
 
+I specialize in building modern web applications and solving complex problems through technology.
 
-[jekyll-organization]: https://github.com/jekyll
+## Skills
+
+- Web Development
+- Problem Solving
+- Team Collaboration
+
+## Contact
+
+- **Email:** lanzcab12@gmail.com
+- **GitHub:** [@hiznalc](https://github.com/hiznalc)
+
+---
+
+*Always open to new opportunities and collaborations!*
