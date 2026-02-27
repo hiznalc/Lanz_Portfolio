@@ -4,40 +4,48 @@ title: About
 permalink: /about/
 ---
 
-# About Lanz Miguel M. Cabrera
+<div class="profile-container">
+  <div class="profile-image">
+    <img src="/assets/images/profile.jpg" alt="Lanz Miguel M. Cabrera">
+  </div>
+  
+  <div class="profile-content">
+    # About Lanz Miguel M. Cabrera
 
-Welcome to my portfolio! I am an undergraduate Information Technology student passionate about building modern web applications and solving real-world problems through technology.
+    Welcome to my portfolio! I am an undergraduate Information Technology student passionate about building modern web applications and solving real-world problems through technology.
 
-## Education
+    ## Education
 
-**Bachelor of Science in Information Technology**  
-Cavite State University - CCAT Rosario Campus
+    **Bachelor of Science in Information Technology**  
+    Cavite State University - CCAT Rosario Campus
 
-## Technical Skills
+    ## Technical Skills
 
-### Programming Languages
+    ### Programming Languages
 
-- **HTML** - Structuring web content
-- **CSS** - Styling and layouts
-- **JavaScript** - Interactive functionality
-- **PHP** - Server-side development
+    - **HTML** - Structuring web content
+    - **CSS** - Styling and layouts
+    - **JavaScript** - Interactive functionality
+    - **PHP** - Server-side development
 
-### Other Skills
+    ### Other Skills
 
-- Web Development
-- Database Management
-- Problem Solving
-- Team Collaboration
+    - Web Development
+    - Database Management
+    - Problem Solving
+    - Team Collaboration
 
-## What I Do
+    ## What I Do
 
-I focus on creating clean, efficient, and user-friendly web applications. My goal is to leverage technology to improve processes and make a positive impact.
+    I focus on creating clean, efficient, and user-friendly web applications. My goal is to leverage technology to improve processes and make a positive impact.
 
-## Contact
+    ## Contact
 
-- **Email:** lanzcab12@gmail.com
-- **GitHub:** [@hiznalc](https://github.com/hiznalc)
+    - **Email:** lanzcab12@gmail.com
+    - **GitHub:** [@hiznalc](https://github.com/hiznalc)
 
----
+    ---
 
-*Always open to new opportunities and collaborations!*
+    *Always open to new opportunities and collaborations!*
+  </div>
+</div>
