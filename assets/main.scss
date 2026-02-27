@@ -1,17 +1,21 @@
 ---
 ---
-@import "minima";
+/* Gaming Theme - Red, Black, White - No Minima Import */
 
-// Gaming Theme - Red, Black, White
-// Override Minima styles with gaming theme
+// Color Variables
+$primary-color: #dc2626;
+$secondary-color: #991b1b;
+$bg-color: #0a0a0a;
+$text-color: #ffffff;
+$dark-gray: #1a1a1a;
+$light-gray: #2a2a2a;
 
-// Color Variables - Gaming Theme
-$primary-color: #dc2626;      // Red - main accent
-$secondary-color: #991b1b;    // Dark red - hover
-$bg-color: #0a0a0a;           // Almost black - background
-$text-color: #ffffff;         // White - text
-$dark-gray: #1a1a1a;          // Dark gray - sections
-$light-gray: #2a2a2a;         // Lighter gray - cards
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 // Global Styles
 body {
@@ -19,14 +23,26 @@ body {
   line-height: 1.6;
   color: $text-color;
   background: $bg-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-// Header Navigation - Gaming Style
+// Wrapper
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 30px;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+// Header - Gaming Style
 .site-header {
   background: linear-gradient(135deg, #000000, $dark-gray, #000000);
   padding: 1.5rem 0;
   border-bottom: 3px solid $primary-color;
   box-shadow: 0 4px 20px rgba(220, 38, 38, 0.3);
+  position: relative;
 }
 
 .site-title {
@@ -36,6 +52,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 2px 2px 4px rgba(220, 38, 38, 0.5);
+  text-decoration: none !important;
 }
 
 .site-nav .page-link {
@@ -46,6 +63,7 @@ body {
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
   transition: all 0.3s ease;
+  text-decoration: none !important;
 }
 
 .site-nav .page-link:hover {
@@ -53,6 +71,12 @@ body {
   border: 2px solid $primary-color;
   box-shadow: 0 0 15px rgba(220, 38, 38, 0.6);
   transform: translateY(-2px);
+}
+
+// Main Content
+.page-content {
+  padding: 30px 0;
+  flex: 1;
 }
 
 // Headings - Gaming Style
@@ -114,6 +138,7 @@ a:hover {
 // Lists
 ul, ol {
   color: $text-color;
+  margin-left: 30px;
 }
 
 li {
@@ -127,6 +152,16 @@ code {
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   border: 1px solid $primary-color;
+  font-size: 14px;
+}
+
+pre {
+  background: $dark-gray;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid $primary-color;
+  overflow-x: auto;
+  margin: 1rem 0;
 }
 
 // Blockquotes
@@ -144,6 +179,9 @@ table {
   background: $dark-gray;
   border: 2px solid $primary-color;
   color: $text-color;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
 }
 
 th {
@@ -152,11 +190,16 @@ th {
   padding: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border: 1px solid $primary-color;
 }
 
 td {
   padding: 0.75rem;
   border: 1px solid $light-gray;
+}
+
+tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
 }
 
 // Footer - Gaming Style
@@ -206,10 +249,16 @@ input[type="submit"]:hover, button:hover, .btn:hover {
   transform: translateY(-3px);
 }
 
-// Highlight effect for important text
+// Strong text
 strong {
   color: $primary-color;
   font-weight: 700;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 // Profile Section Styles
@@ -252,7 +301,23 @@ strong {
   margin-top: 0;
 }
 
-// Responsive Profile
+// Paragraph
+p {
+  margin-bottom: 1rem;
+  color: $text-color;
+}
+
+// Gaming glow animation
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.1);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+  }
+}
+
+// Responsive
 @media (max-width: 768px) {
   .profile-container {
     flex-direction: column;
@@ -295,20 +360,15 @@ strong {
     padding: 0.3rem 0.5rem;
     font-size: 0.9rem;
   }
-}
-
-// Gaming glow effect for main content
-.wrapper {
-  animation: glow 3s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    box-shadow: 0 0 10px rgba(220, 38, 38, 0.1);
-  }
-  to {
-    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+  
+  .wrapper {
+    padding: 0 15px;
   }
 }
 
-/* Cache buster: 2026-02-28 */
+// Menu icon for mobile
+.menu-icon svg {
+  fill: $primary-color;
+}
+
+/* Cache buster: 2026-02-28-v2 */
