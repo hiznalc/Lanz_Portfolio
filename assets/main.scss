@@ -1,7 +1,9 @@
 ---
 ---
+@import "minima";
+
 // Gaming Theme - Red, Black, White
-// Custom styles for Lanz Portfolio
+// Override Minima styles with gaming theme
 
 // Color Variables - Gaming Theme
 $primary-color: #dc2626;      // Red - main accent
@@ -210,45 +212,6 @@ strong {
   font-weight: 700;
 }
 
-// Responsive
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-    letter-spacing: 1px;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-  }
-  
-  .site-header {
-    padding: 1rem 0;
-  }
-  
-  .site-title {
-    font-size: 1.4rem;
-  }
-  
-  .site-nav .page-link {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.9rem;
-  }
-}
-
-// Gaming glow effect for main content
-.wrapper {
-  animation: glow 3s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    box-shadow: 0 0 10px rgba(220, 38, 38, 0.1);
-  }
-  to {
-    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
-  }
-}
-
 // Profile Section Styles
 .profile-container {
   display: flex;
@@ -309,5 +272,41 @@ strong {
   
   .profile-content {
     width: 100%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .site-header {
+    padding: 1rem 0;
+  }
+  
+  .site-title {
+    font-size: 1.4rem;
+  }
+  
+  .site-nav .page-link {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+// Gaming glow effect for main content
+.wrapper {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.1);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
   }
 }
